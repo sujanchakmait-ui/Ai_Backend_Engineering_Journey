@@ -1,41 +1,44 @@
-# AI Backend Engineering Journey
+# Day 01 - Python Fundamentals
 
-This repository documents my 6–7 month journey
-toward becoming an AI Backend Engineer.
+Name = "sujan chakma"
+Age = 25
+GPA = 3.17
+Is_Student = True
 
-## Learning Roadmap
+print(type(Name))
+print(type(Age))
+print(type(GPA))
+print(type(Is_Student))
 
-Python
-→ Backend
-→ FastAPI
-→ SQL/PostgreSQL
-→ AI/LLM
-→ RAG
-→ AI Agents
-→ Docker
-→ Deployment
-→ Real-world Projects
+# f-string practice
+print(f"Name: {Name}, Age: {Age}, GPA: {GPA}, Is_Student: {Is_Student}")
 
-## Current Progress
+# Type conversion - string to integer
+age = "25"
+age = int(age)
 
-### Python
+print(age)
+print(type(age))
 
-- [x] Environment Setup
-- [x] Basic Data Types
-- [x] Variables
-- [x] Type Checking
-- [x] f-string
-- [x] Basic Type Conversion
+# Type conversion - string to float
+price = "99.50"
+price = float(price)
 
-More coming soon...
+print(price)
+print(type(price))
 
-## Goal
+# Boolean conversion
+text = "True"
+text = bool(text)
 
-My goal is to become a practical, project-capable
-AI Backend Engineer and prepare for real-world
-engineering roles.
+print(text)
+print(type(text))
 
-## Progress
+# Conversion + calculation
+score = "85.5"
+score = float(score)
 
-Started: September 2026
-Target: 6–7 months
+result = score + 10
+
+print(result)
+print(type(result))
