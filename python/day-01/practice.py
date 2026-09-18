@@ -1,6 +1,6 @@
 # AI Backend Engineering Journey
 
-This repository documents my 4–5 month journey
+This repository documents my 6–7 month journey
 toward becoming an AI Backend Engineer.
 
 ## Learning Roadmap
