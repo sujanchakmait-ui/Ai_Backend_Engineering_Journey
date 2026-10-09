@@ -1,1 +1,91 @@
 
+# class Student Project
+
+
+
+class Student:
+    def __init__(self, name, roll, marks):
+        self.name = name
+        self.roll = roll
+        self.marks = marks
+
+    def show_info(self):
+        print("Name:", self.name)
+        print("Roll:", self.roll)
+        print("Marks:", self.marks)
+
+    def show_grade(self):
+        if self.marks >= 80:
+            print("Excellent")
+        elif self.marks >= 33:
+            print("Pass")
+        else:
+            print("Fail")
+
+    def update_marks(self, marks):
+        self.marks = marks
+
+    def show_result(self):
+        if self.marks >= 33:
+            print("Pass")
+        else:
+            print("Fail")
+
+
+# Create student objects
+student1 = Student("Sujan", 10, 85)
+student2 = Student("Kamal", 6, 65)
+student3 = Student("Rahim", 11, 25)
+
+
+# Display Student 1
+print("--- Student 1 ---")
+student1.show_info()
+student1.show_result()
+student1.show_grade()
+
+# Display Student 2
+print("\n--- Student 2 ---")
+student2.show_info()
+student2.show_result()
+student2.show_grade()
+
+# Display Student 3
+print("\n--- Student 3 ---")
+student3.show_info()
+student3.show_result()
+student3.show_grade()
+
+# Update marks example
+print("\n--- After Updating Sujan's Marks ---")
+student1.update_marks(90)
+student1.show_info()
+student1.show_grade()
+
+
+(my_env) PS C:\Users\HP\Downloads\Ai\python.py\my_package> python -u "c:\Users\HP\Downloads\Ai\python.py\my_package\my_package\class_object.py"
+Name:  Sujan
+Roll:  10
+Marks:  85
+Pass
+Excellent
+---student1---
+Name:  Kamal
+Roll:  6
+Marks:  65
+Pass
+Pass
+---student2---
+Name:  Rahim
+Roll:  11
+Marks:  25
+Fail
+Fail
+(my_env) PS C:\Users\HP\Downloads\Ai\python.py\my_package> 
+
+
+
+
+
+
+
