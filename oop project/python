@@ -1,0 +1,48 @@
+# Student Management System
+
+## Project Overview
+
+A beginner-friendly Python OOP project that manages student information, marks, grades, and pass/fail results.
+
+## Features
+
+- Store student name, roll number, and marks.
+- Display student information.
+- Calculate a simple grade based on marks.
+- Check pass/fail status.
+- Update student marks.
+- Manage multiple students using separate objects.
+
+## Concepts Learned
+
+1. **Class and Object** — Created a `Student` class and multiple student objects.
+2. **Constructor (`__init__`)** — Initialized student information when creating an object.
+3. **`self`** — Accessed the current object's attributes and methods.
+4. **Instance Variables** — Stored each student's own name, roll number, and marks.
+5. **Methods** — Created `show_info()`, `show_grade()`, `update_marks()`, and `show_result()`.
+6. **Conditional Statements** — Used `if`, `elif`, and `else` to determine grades and results.
+7. **Object State Updates** — Changed marks and displayed the updated information.
+8. **Multiple Objects** — Managed three students independently using the same class.
+
+## Grade Rules
+
+| Marks | Grade/Status |
+|---|---|
+| 80 or above | Excellent |
+| 33–79 | Pass |
+| Below 33 | Fail |
+
+## Technologies
+
+- Python
+- Object-Oriented Programming (OOP)
+
+## How to Run
+
+```bash
+python student_management.py
+```
+
+## Learning Outcome
+
+Practiced the fundamentals of Python OOP by building a small student management project, including object creation, methods, conditional logic, and updating object data.
